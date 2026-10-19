@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.imnoo/drawing-anonymizer",
+  "title": "Drawing Anonymizer",
+  "description": "Anonymize drawing PDFs: mask names, logos, addresses, emails; flattened PDF or expiring link.",
+  "version": "0.1.0",
+  "websiteUrl": "https://drawing-anonymizer.imnoo.com",
+  "repository": {
+    "url": "https://github.com/imnoo-team/drawing-anonymizer-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "drawing-anonymizer-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "DRAWING_ANONYMIZER_URL",
+          "description": "Optional. Base URL of the Imnoo web app that runs the drawing analysis and share links; only change it to target another deployment.",
+          "isRequired": false,
+          "isSecret": false,
+          "default": "https://drawing-anonymizer.imnoo.com"
+        }
+      ]
+    }
+  ]
+}
