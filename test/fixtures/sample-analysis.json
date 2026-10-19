@@ -1,0 +1,382 @@
+{
+  "tenantId": 0,
+  "id": "sample-analysis",
+  "analysisVersion": 3,
+  "mainPageNr": 0,
+  "predefinedMainPageNr": null,
+  "pages": {
+    "0": {
+      "pageNr": 0,
+      "title": "BRACKET LEFT",
+      "height": 1684,
+      "width": 2381,
+      "dpi": 144,
+      "rotation": 0,
+      "isDrawing": true,
+      "imperialUnits": false,
+      "shape": "Plate",
+      "drawingNr": "DRW-10457-B",
+      "articleNr": "ART-88213",
+      "materialAliases": [
+        "1.4301"
+      ],
+      "dimensionalTolerancesDifficultyStd": 0,
+      "dimensionalTolerancesDifficultyMean": 0,
+      "toleratedDrillsAndShaftsDifficultyStd": 0,
+      "toleratedDrillsAndShaftsDifficultyMean": 0,
+      "threadsDifficultyStd": 0,
+      "threadsDifficultyMean": 0,
+      "fineThreadsDifficultyStd": 0,
+      "fineThreadsDifficultyMean": 0,
+      "threads": [],
+      "fineThreads": [],
+      "dimensionalTolerances": [],
+      "geometricalTolerances": [],
+      "surfaceTolerances": [],
+      "sensitiveData": [
+        {
+          "id": "sd-01",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1788,
+            "y": 315,
+            "width": 79,
+            "height": 20
+          },
+          "score": 1,
+          "type": "Name",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "M. Muster",
+          "replacementValue": "",
+          "fontSize": 9,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-02",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1832,
+            "y": 341,
+            "width": 181,
+            "height": 20
+          },
+          "score": 1,
+          "type": "CompanyName",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "ACME Precision GmbH",
+          "replacementValue": "",
+          "fontSize": 9,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-03",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 154,
+            "y": 1599,
+            "width": 160,
+            "height": 19
+          },
+          "score": 1,
+          "type": "CompanyName",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "ACME Precision GmbH",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-04",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1420,
+            "y": 1236,
+            "width": 260,
+            "height": 92
+          },
+          "score": 0.91,
+          "type": "CompanyLogo",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "",
+          "replacementValue": "",
+          "fontSize": null,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-05",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1243,
+            "width": 223,
+            "height": 23
+          },
+          "score": 1,
+          "type": "CompanyName",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "ACME Precision GmbH",
+          "replacementValue": "",
+          "fontSize": 10,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-06",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1273,
+            "width": 293,
+            "height": 19
+          },
+          "score": 1,
+          "type": "Address",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "Musterstrasse 12, 8000 Zürich, Switzerland",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-07",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1297,
+            "width": 148,
+            "height": 19
+          },
+          "score": 1,
+          "type": "PhoneNr",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "Tel. +41 44 123 45 67",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-08",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1319,
+            "width": 205,
+            "height": 19
+          },
+          "score": 1,
+          "type": "Email",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "info@acme-precision.example",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-09",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 2018,
+            "y": 1319,
+            "width": 202,
+            "height": 19
+          },
+          "score": 1,
+          "type": "Website",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "www.acme-precision.example",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-10",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1368,
+            "width": 74,
+            "height": 20
+          },
+          "score": 1,
+          "type": "Name",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "M. Muster",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-11",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1391,
+            "width": 76,
+            "height": 18
+          },
+          "score": 1,
+          "type": "Date",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "2026-03-14",
+          "replacementValue": "",
+          "fontSize": 7,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-12",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1440,
+            "width": 79,
+            "height": 20
+          },
+          "score": 1,
+          "type": "Name",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "A. Beispiel",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-13",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1461,
+            "width": 76,
+            "height": 18
+          },
+          "score": 1,
+          "type": "Date",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "2026-03-18",
+          "replacementValue": "",
+          "fontSize": 7,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-14",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1429,
+            "width": 105,
+            "height": 23
+          },
+          "score": 1,
+          "type": "ArticleNr",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "ART-88213",
+          "replacementValue": "",
+          "fontSize": 10,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-15",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 2018,
+            "y": 1370,
+            "width": 172,
+            "height": 29
+          },
+          "score": 1,
+          "type": "DrawingNr",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "DRW-10457-B",
+          "replacementValue": "",
+          "fontSize": 13,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-16",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1522,
+            "width": 118,
+            "height": 20
+          },
+          "score": 0.58,
+          "type": "Other",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "PO-2026-04471",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-17",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1414,
+            "y": 1572,
+            "width": 138,
+            "height": 20
+          },
+          "score": 0.58,
+          "type": "Other",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "Nordwind Getriebe",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        },
+        {
+          "id": "sd-18",
+          "instanceId": null,
+          "boundingBox": {
+            "x": 1718,
+            "y": 1522,
+            "width": 86,
+            "height": 20
+          },
+          "score": 1,
+          "type": "Name",
+          "color": "",
+          "originalBackgroundColorHex": "#ffffff",
+          "originalValue": "R. Freigabe",
+          "replacementValue": "",
+          "fontSize": 8,
+          "fontColorHex": "#1a1a1a",
+          "textRotation": 0
+        }
+      ]
+    }
+  }
+}

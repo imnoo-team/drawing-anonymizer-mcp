@@ -1,0 +1,16 @@
+export { buildMasks, normalizeRect, overlaps, pageGeometries, pageIndexBase, selectMainPageNr, toPdfPageNumber, } from '../engine/domain/masking/mask-builder';
+export { CATEGORIES, CATEGORY_BY_TYPE, categoryLabel, DEFAULT_AUTO_MASK, DEFAULT_SETTINGS, MAX_REPLACEMENT_LENGTH, newBoxId, OWN_LOGO_VALUE, SHARE_EXPIRY_SECONDS, } from '../engine/domain/masking/mask-model';
+export type { DetectionScope, MaskBox, MaskCategory, MaskMode, MaskSettings, PageGeometry, Rect, ShareExpiry, } from '../engine/domain/masking/mask-model';
+export { inDetectionScope, titleBlockRegions } from '../engine/domain/masking/title-block';
+export { termBoxes, tokensInside } from '../engine/domain/masking/text-search';
+export type { TextToken } from '../engine/domain/masking/text-search';
+export { textTokensFromContent } from '../engine/domain/masking/text-layer';
+export type { TextContentItemLike } from '../engine/domain/masking/text-layer';
+export { buildCoverageReport, reportLines } from '../engine/domain/masking/coverage-report';
+export type { CoverageReport } from '../engine/domain/masking/coverage-report';
+export { buildMaskedPdf } from '../engine/domain/masking/masked-pdf.builder';
+export type { LogoAsset, MaskedPdfResult, Rasterizer } from '../engine/domain/masking/masked-pdf.builder';
+export { sha256Hex } from '../engine/domain/masking/file-hash';
+export { toPixels } from '../engine/domain/color';
+export { AnalysisErrorCodes, SensitiveDataType } from '../engine/core/models/drawing.dtos';
+export type { IFileStoreDrawingDataDto, ISensitiveDataItemDto } from '../engine/core/models/drawing.dtos';

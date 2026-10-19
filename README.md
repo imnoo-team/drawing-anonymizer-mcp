@@ -132,7 +132,13 @@ When `masking` is omitted on a drawing that was masked before in the same sessio
 
 ## Development
 
-This package is built from the Drawing Anonymizer monorepo at [Imnoo](https://www.imnoo.com), where it imports the web app's masking engine directly (mask builder, title-block scope, text search, coverage report and the secure-PDF builder) — so the [web app](https://drawing-anonymizer.imnoo.com) and this server detect, mask and flatten a drawing the same way by construction. Every release is gated on end-to-end checks that drive all four tools over stdio against the bundled sample drawing and read the output's text layer and pixels.
+The server lives in `src/`; `engine/` holds the masking engine it shares with the [web app](https://drawing-anonymizer.imnoo.com) (mask builder, title-block scope, text search, coverage report and the secure-PDF builder), synced from the Drawing Anonymizer monorepo at [Imnoo](https://www.imnoo.com) on every release — so the web app and this server detect, mask and flatten a drawing the same way by construction. Every release is gated on end-to-end checks that drive all four tools over stdio against the sample drawing in `test/fixtures` and read the output's text layer and pixels:
+
+```bash
+npm ci
+npm test                 # build + end-to-end stdio checks
+SMOKE_LIVE=1 npm test    # + a real upload and share link (one daily analysis of your IP)
+```
 
 Issues and feature requests are welcome in this repository.
 
